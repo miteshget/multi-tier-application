@@ -10,6 +10,6 @@
 
 .To run 
 
-* git clone https://github.com/miteshrh/examples.git
-* cd examples/3tier-good
+* git clone https://github.com/miteshrh/multi-tier-application.git
+* cd multi-tier-application
 * ansible-playbook main.yml -e GUID=<your guid>
