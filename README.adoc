@@ -1,4 +1,12 @@
-== 3tier-good playbook and roles
+== Multi tier application 
+
+.Following are the details to use
+
+* inventory must have following groups - ( frontends, apps, appdbs )
+* add host to above group
+* frontends group will have host where we want to install HAproxy
+* apps group will have host where we want to install httpd/tomcat
+* appdbs group will have host where we want to install postgressql
 
 .To run 
 
