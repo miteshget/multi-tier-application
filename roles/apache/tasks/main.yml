@@ -4,6 +4,12 @@
   yum:
     name: httpd
     state: latest
+
+- name: Create index file
+  copy:
+    content: "Welcome to apache server"
+    dest: /var/www/html/index.html
+    
 - name: enable apache at boot
   service:
     name: httpd
