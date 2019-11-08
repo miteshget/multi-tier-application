@@ -14,4 +14,4 @@
 * cd multi-tier-application
 * ansible-playbook main.yml -e GUID=<your guid>
 
-==Thank you
+== Thank you
