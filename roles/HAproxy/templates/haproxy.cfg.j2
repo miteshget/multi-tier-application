@@ -28,3 +28,4 @@ backend app-servers
     {% for host in groups['apps'] %}
     server {{ host }} {{ host }}:8080 cookie {{ host }} check
     server {{ host }} {{ host }}:8080 cookie {{ host }} check
+    {% endfor %}
