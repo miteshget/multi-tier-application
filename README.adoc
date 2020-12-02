@@ -2,7 +2,7 @@
 
 .Following are the details to use
 
-* inventory must have following groups - ( frontends, apps, appdbs )
+* You must have following group in inventory - ( frontends, apps, appdbs )
 * add host to above groups
 * frontends group will have host where we want to install HAproxy
 * apps group will have host where we want to install httpd/tomcat
